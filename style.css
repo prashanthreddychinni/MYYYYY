@@ -42,8 +42,8 @@ nav {
 }
 
 .logo {
-    width: 80px;
-    border-radius: 50%;
+    width: 120px;
+    border-radius: 70%;
 }
 
 nav ul {
@@ -381,4 +381,16 @@ nav .fa-solid {
         top: 25px;
         left: 25px;
     }
+}
+#msg {
+    display: block;
+    margin-top: 15px;
+    color: #61b752;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
